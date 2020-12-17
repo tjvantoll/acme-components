@@ -4,7 +4,14 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist --copy-files"
+    "build": "babel src --out-dir dist --copy-files",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": ["src"],
+      "extensions": "js"
+    }
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +20,8 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
-    "babel-preset-react-app": "^10.0.0"
+    "babel-preset-react-app": "^10.0.0",
+    "npm-watch": "^0.7.0"
   },
   "dependencies": {
     "@progress/kendo-licensing": "^1.1.1",

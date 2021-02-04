@@ -1,6 +1,7 @@
 import AutoComplete from './AutoComplete';
+import Button from './Button';
 import DropDownList from './DropDownList';
 
 import '@progress/kendo-theme-material/dist/all.css';
 
-export { AutoComplete, DropDownList };
+export { AutoComplete, Button, DropDownList };

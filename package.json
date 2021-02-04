@@ -12,7 +12,7 @@
       "patterns": [
         "src"
       ],
-      "extensions": "js"
+      "extensions": "css, js"
     }
   },
   "author": "",

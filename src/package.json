@@ -25,21 +25,22 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-dateinputs": "^4.5.0",
+    "@progress/kendo-react-intl": "^4.5.0",
+    "@progress/kendo-theme-default": "^4.37.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
-    "@progress/kendo-licensing": "^1.1.4",
-    "@progress/kendo-react-dateinputs": "^4.5.0",
-    "@progress/kendo-react-intl": "^4.5.0",
-    "@progress/kendo-theme-default": "^4.37.0",
     "copyfiles": "^2.4.1",
     "npm-watch": "^0.7.0",
     "sass": "^1.32.10"
   },
   "peerDependencies": {
-    "@progress/kendo-react-common": "4.5.0",
     "react": "^17.0.1"
   }
 }

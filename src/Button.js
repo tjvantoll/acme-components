@@ -1,8 +1,13 @@
 import React from 'react';
 
 const Button = (props) => {
+  const { type } = props;
   return (
-    <button className="acme-button">{props.children}</button>
+    <button
+      type={type || "submit"}
+      className="acme-button">
+      {props.children}
+    </button>
   )
 }
 

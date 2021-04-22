@@ -1,0 +1,45 @@
+{
+  "name": "acme-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-js && npm run build-css",
+    "build-js": "babel *.js --out-dir ../dist --copy-files && copyfiles *.json ../dist",
+    "build-css": "sass theme.scss theme.css && copyfiles *.css ../dist",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build-js": {
+      "patterns": [
+        "*.js"
+      ],
+      "extensions": ".js"
+    },
+    "build-css": {
+      "patterns": [
+        "*.scss"
+      ],
+      "extensions": ".scss"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-dateinputs": "^4.5.0",
+    "@progress/kendo-react-intl": "^4.5.0",
+    "@progress/kendo-theme-default": "^4.37.0",
+    "copyfiles": "^2.4.1",
+    "npm-watch": "^0.7.0",
+    "sass": "^1.32.10"
+  },
+  "peerDependencies": {
+    "@progress/kendo-react-common": "4.5.0",
+    "react": "^17.0.1"
+  }
+}

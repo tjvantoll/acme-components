@@ -1,6 +1,6 @@
 # An Opinionated Approach to Building Corporate Component Libraries
 
-The following contains the source code for my article series on `The Ultimate Guide to Building a UI Library for Your Company`.
+The following contains the source code for my article series on “The Ultimate Guide to Building a UI Library for Your Company”.
 
 You can read the full article series using the links below.
 

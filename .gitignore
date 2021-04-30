@@ -1,3 +1,4 @@
 dist
 node_modules
 src/.sass-cache
+src/kendo-ui-license.txt

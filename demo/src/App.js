@@ -31,6 +31,8 @@ import DatePicker from 'acme-components/DatePicker';
 
 <DatePicker defaultValue={new Date(2022, 0, 1)} />
 
+<p>The ACME DatePicker is built on top of the KendoReact DatePicker, and you can <a href="https://www.telerik.com/kendo-react-ui/components/dateinputs/datepicker/">refer to KendoReact’s documentation</a> for additional properties that you can for customization.</p>
+
     </>
   );
 }
